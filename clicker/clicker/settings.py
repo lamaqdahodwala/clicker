@@ -25,7 +25,10 @@ SECRET_KEY = "django-insecure-kd*b!sq1-uq2ox9@8+v#k&=$!*5y_(af*b3w01^+d)w2+4613w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['clickergamewithdjango.herokuapp.com']
+ALLOWED_HOSTS = [
+    'clickergamewithdjango.herokuapp.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
