@@ -1,0 +1,1 @@
+web: cd clicker && gunicorn clicker.wsgi
